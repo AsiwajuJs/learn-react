@@ -16,10 +16,31 @@
  * If you don't pass in a "question" prop, how might you make it only 
  * show the punchline?
  */
-import Joke from 
+import Joke from "./joke"
 
 export default function App() {
     return (
-        <></>
+        <>
+            <Joke 
+                setup
+                punchline
+            />
+            <Joke 
+                setup
+                punchline
+            />
+            <Joke 
+                setup
+                punchline
+            />
+            <Joke 
+                setup
+                punchline
+            />
+            <Joke 
+                setup
+                punchline
+            />
+        </>
     )
 }
